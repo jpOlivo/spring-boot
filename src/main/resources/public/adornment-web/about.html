@@ -1,0 +1,301 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adornment a Interior and Furniture Category Flat bootstrap Responsive website Template | About :: w3layouts</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--web-font-->
+<link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Adornment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.63321.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>					
+			</div>
+			<!--top-nav-->
+			<div class="top-nav cl-effect-11">
+				<span class="menu-icon"><img src="images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" data-hover="Home">Home</a></li>
+					<li><a href="about.html" class="active" data-hover="About">About</a></li>
+					<li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
+					<li><a href="blog.html" data-hover="Blog">Blog</a></li>
+					<li><a href="contact.html" data-hover="Contact">Contact</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+				   $( "span.menu-icon" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!--//top-nav-->
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--about-->
+	<div class="about">
+		<div class="container">
+			<h3>Who we are </h3>
+			<div class="about-grids">
+				<div class="col-md-6 about-left">
+					<img src="images/img4.jpg" alt=""/>
+				</div>
+				<div class="col-md-6 about-right">
+					<p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident deleniti atque corrupti quos dolores et quas molestias.</p>
+					<ul class="menu">
+						<li class="item1"><a href="#">Why choose us<span class="icon"> </span></a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem .</a></li>										
+							</ul>
+						</li>
+						<li class="item2"><a href="#">Our history <span class="icon"> </span></a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem.</a></li>
+							</ul>
+						</li>
+						<li class="item3"><a href="#">our special designs <span class="icon"> </span></a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem.</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- script for tabs -->
+				<script type="text/javascript">
+					$(function() {
+					
+						var menu_ul = $('.menu > li > ul'),
+							   menu_a  = $('.menu > li > a');
+						
+						menu_ul.hide();
+					
+						menu_a.click(function(e) {
+							e.preventDefault();
+							if(!$(this).hasClass('active')) {
+								menu_a.removeClass('active');
+								menu_ul.filter(':visible').slideUp('normal');
+								$(this).addClass('active').next().stop(true,true).slideDown('normal');
+							} else {
+								$(this).removeClass('active');
+								$(this).next().stop(true,true).slideUp('normal');
+							}
+						});
+					
+					});
+				</script>
+				<!-- script for tabs -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>	
+			<div class="about-team">
+				<h3>Meet our team</h3>
+				<div class="main">
+					<div id="mi-slider" class="mi-slider">
+						<ul>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img5.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">ANDERSON</a> designer</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img6.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4> <a href="#">JESSI</a>Director</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img7.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4> <a href="#">EOSELI</a> Ceo</h4>				
+										<p>Odio dignissimos vero eos voluptatem accusantium .</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img8.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">ERSONAND</a> designer</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium .</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img9.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">CASSI,</a>Designer</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img10.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">SELIGEN</a>Designer</h4>				
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img7.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">SJESICA</a> Cvolupt</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img11.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">ANDERSON,</a>Dvero</h4>
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="about-team-grids">
+									<a href="#"><img src="images/img10.jpg" class="img-responsive" alt=""/></a>
+									<div class="team-text">
+										<h4><a href="#">DIEOS</a>Designer</h4>				
+										<p>Odio dignissimos vero eos voluptatem accusantium.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<nav>
+							<a href="#">Team1</a>
+							<a href="#">Team2</a>
+							<a href="#">Team3</a>
+						</nav>						
+					</div>
+					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+						<script src="js/jquery.catslider.js"></script>
+						<script>
+							$(function() {
+
+								$( '#mi-slider' ).catslider();
+
+							});
+						</script>
+				</div>
+			</div>	
+			<!--services-->
+			<div class="services">
+				<h3>Featured services</h3>
+				<div class="col-md-4 services-grids">
+					<ul>
+						<li><a href="#">Donec ut quam lscelerisque.</a></li>
+						<li><a href="#">Etiam volutpatbh lobortis</a></li>
+						<li><a href="#">Varius fusce vitaeblandit.</a></li>
+						<li><a href="#">onec dut quam lscelerisque.</a></li>
+						<li><a href="#">Tiame volutpatbh lobortis</a></li>
+						<li><a href="#">Ariusv fusce vitaeblandit.</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 services-grids">
+					<ul>
+						<li><a href="#">onec dut quam lscelerisque.</a></li>
+						<li><a href="#">Tiame volutpatbh lobortis</a></li>
+						<li><a href="#">Ariusv fusce vitaeblandit.</a></li>
+						<li><a href="#">Donec ut quam lscelerisque.</a></li>
+						<li><a href="#">Etiam volutpatbh lobortis</a></li>
+						<li><a href="#">Varius fusce vitaeblandit.</a></li>						
+					</ul>
+				</div>
+				<div class="col-md-4 services-grids">
+					<ul>
+						<li><a href="#">Varius fusce vitaeblandit.</a></li>
+						<li><a href="#">onec dut quam lscelerisque.</a></li>
+						<li><a href="#">Tiame volutpatbh lobortis</a></li>
+						<li><a href="#">Donec ut quam lscelerisque.</a></li>
+						<li><a href="#">Etiam volutpatbh lobortis</a></li>						
+						<li><a href="#">Ariusv fusce vitaeblandit.</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//about-->
+	<div class="footer">
+		<div class="container">
+			<p>Copyright © 2015 Adornment. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		</div>
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"> </script>
+</body>
+</html>
