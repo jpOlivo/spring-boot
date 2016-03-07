@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IVR QA Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+    <h1>QA Survey <small>A Short Survey</small></h1>
+</div>
+
+<!-- Satisfaction Survey - START -->
+<div class="container" id="cnt1">
+    <div class="col-md-2">
+    </div>
+
+    <div class="col-md-8" id="panel1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="fa fa-question-circle"></span> Cual de estos errores que cometemos crees que degrada mas la calidad?</h3>
+            </div>
+            <div class="panel-body two-col">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Planificaciones demasiado optimistas
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Gestion de cambios y riesgos inadecuada
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Ausencia de test de unidad y de regresion
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Adopcion de Malas Practicas de Desarrollo (by pass de modulos, ambientes cruzados, etc.)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm margin-bottom-none">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Gestion de planes inadecuada o ausencia de los mismos
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm margin-bottom-none">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Pobre comunicacion durante el avance del proyecto entre todos los stakeholders
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-heading">
+	                <h3 class="panel-title">
+	                    <span class="fa fa-question-circle"></span> Hoy en dia, de que manera contribuis a la calidad?</h3>
+	        </div>
+	        <div class="form-group well well-sm">
+  				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+            <div class="panel-heading">
+	                <h3 class="panel-title">
+	                    <span class="fa fa-question-circle"></span> Cual de estas iniciativas te gustaria que implementemos?</h3>
+	        </div>
+            <div class="panel-body two-col">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Actividades de refactoring periodico
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Establecimiento de Umbrales de Calidad
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Establecemiento marco de trabajo para creacion test
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Automatizacion de Analisis de Codigo
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="well well-sm margin-bottom-none">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Peer review de artefactos de management
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well well-sm margin-bottom-none">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Meetups de QA participativos
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>	        
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-success btn-sm btn-block">
+                            <span class="fa fa-send"></span>Submit</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-primary btn-sm btn-block">
+                            View Result</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+#cnt1 {
+    background-color: rgba(215, 212, 212, 0.88);
+    margin-bottom: 70px;
+}
+
+#panel1 {
+    padding:20px;
+}
+
+.panel-body:not(.two-col) {
+    padding: 0px;
+}
+
+.panel-body .radio, .panel-body .checkbox {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-body .list-group {
+    margin-bottom: 0;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+</style>
+
+<!-- Satisfaction Survey - END -->
+
+</div>
+
+</body>
+</html>
