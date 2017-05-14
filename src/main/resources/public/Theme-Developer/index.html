@@ -26,6 +26,17 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
     
+    
+	<!-- jquery-rss -->    
+    <script src="http://code.jquery.com/jquery-1.6.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="js/jquery.rss.js"></script>
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("http://jpolivo.github.io/feed.xml")
+      })
+    </script>
+    
 </head> 
 
 <body>
@@ -157,24 +168,28 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">IT Architect - <span class="place"><a href="http://www.citigroup.com/citi/">Citibank</a></span> <span class="year">(2009 - Present)</span></h3>
-                                <p>Carry forward the integration and design of IVR Solution and achieve the technical engagement of all the teams involved (Development, Operations, Infrastructure, etc.); Drive the decisions of high level technical design; Identify and ensure non-functional requirements compliance; Perform analysis technical feasibility; Define and communicate design decisions to all stakeholders; Validate the architecture against requirements, assumptions and standards established by Bank; Design and implement proof of concepts for the creation and integration of new components, architectural approaches and frameworks; Assist in the implementation of the architecture deployment for IVR Applications; Collaborate in interfaces specifications with others solutions or subsystems; Technology mentor; Comprise the SDLC defining and collaborate in the elaboration of guidelines and standards of development; Drive and lead the QA activities.</p>
+                                <p>I participated in the large-scale migration of all IVR apps belonging to Citi Latam call centers, I worked with several technologies, both web apps and voice apps, and involved me in all aspects of SDLC: Design, Development, Deployment, Tests, etc.</p> 
+								<p>Main technologies: JEE, JCE, JAXB, JMS, JAX-WS, JAX-RS. Avaya, Cisco, Genesys, Telecommunication Protocols, VXML, CCXML. ZK, Spring Webflow, Spring MVC, Spring Boot, Hibernate, Quartz, Junit, Maven, Velocity. Sonar, Jenkins, Selenium.</p>
+								<!-- <p>Main Responsabilities: Carry forward the integration and design of IVR Solution and achieve the technical engagement of all the teams involved (Development, Operations, Infrastructure, etc.); Drive the decisions of high level technical design; Perform analysis technical feasibility; Design and implement proof of concepts for the creation and integration of new components, architectural approaches and frameworks; Collaborate in interfaces specifications with others solutions or subsystems; Technology mentor; Comprise the SDLC defining and collaborate in the elaboration of guidelines and standards of development; Drive and lead the QA activities.</p> -->                                
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Technical Analyst - <span class="place"><a href="http://www.osde.com.ar/index.html">Osde</a></span> <span class="year">(2007 - 2009)</span></h3>
-                                <p>I participate in the development of several Java Web apps, some of them oriented to Workflows and others to CRUD.</p>
-                                <p>Some technologies used on these projects comprise: Struts, Echo3, Spring, Hibernate, Xstream, EJB, JDBC and Servlets.</p>
+                                <p>I participated in the build of an Enterprise Portal using Apache Jetspeed and the design & development of a Portlet app (integrated with a Datawarehouse) for business analysis. Also, I collaborated in the construction a custom framework for accelarate the development of web apps (builded on hibernate, spring and other technologies).</p>
+                                <p>Some technologies used on these projects comprise: Java Portlet, Apache Jetspeed, Velocity, Jfreechart, Jmesa, Xstream, Spring, Hibernate, Ant, Maven.</p>
+                                <!-- <p>Main Responsabilities:  Perform analysis technical feasibility; Identify non-functional requirements and constraints; Design and Development of core components; Conceptualization and testing of different architectural approaches and technologies (Proof of Concept).</p> -->
                             </div><!--//item-->
                             
                             <div class="item">
                                 <h3 class="title">Developer - <span class="place"><a href="http://www.topgroup.com.ar/">Topgroup</a></span> <span class="year">(2006 - 2007)</span></h3>
-                                <p>I participate in the development of several Java Web apps, some of them oriented to Workflows and others to CRUD.</p>
+                                <p>I participated in the development of several Java Web apps, some of them oriented to Workflows and others to CRUD.</p>
                                 <p>Some technologies used on these projects comprise: Struts, Echo3, Spring, Hibernate, Xstream, EJB, JDBC and Servlets.</p>
+                                <!-- <p>Main Responsabilities: Generate code; Execute unit & integration tests; Code Refactoring; Deploy of releases.</p> -->
                             </div><!--//item-->
                             
                             <div class="item">
                                 <h3 class="title">Developer - <span class="place"><a href="http://www.indracompany.com/">Indra</a></span> <span class="year">(2005 - 2006)</span></h3>
-                                <p>I worked in the development of a Java Desktop app using as main technologies Swing & JDBC.</p>
-                                <p>Also, worked in the development & integration of a Java Web app using as frameworks as Struts, Spring, Hibernate, and Castor.</p>
+                                <p>I worked in the development of a Java Desktop app using as main technologies Swing & JDBC. Also, worked in the development & integration of a Java Web app using as frameworks as Struts, Spring, Hibernate, and Castor.</p>
+                                <!-- <p>Main Responsabilities: Generate code; Execute unit & integration tests; Code Refactoring; Deploy of releases.</p> -->
                             </div><!--//item-->
                             
                         </div><!--//content-->  
@@ -192,7 +207,7 @@
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
                             </ul>
                         </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                    </div><!--//section-inner-->                 	
                 </aside><!--//aside-->
                 
                 <aside class="skills aside section">
@@ -296,9 +311,8 @@
                 <aside class="blog aside section">
                     <div class="section-inner">
                         <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <!-- <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p> -->
                         <div id="rss-feeds" class="content">
-
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
